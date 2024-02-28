@@ -1,0 +1,4 @@
+graph myexample {
+    a -- b -- c;
+    b -- d;
+}

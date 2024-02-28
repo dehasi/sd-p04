@@ -1,0 +1,39 @@
+= Practice #4
+
+.plan
+* [ ] Graphviz, dot
+** maven dependency graph
+* [ ] PlantUML
+** PlantUML Parser
+** UML Generator
+* [ ] ER
+** SQLite
+** Flyway
+** SchemaSpy
+* [ ] Embed to Asciidoc or Markdown
+* [ ] MermaidJS
+* [ ] embed
+* [ ] C4
+** puml
+** structurzir
+* [ ] draw io
+* [ ] excalidraw
+* [ ] miro
+
+.maybe
+* [ ] TikZ
+* [ ] svg
+
+
+
+.links
+* https://dreampuf.github.io/GraphvizOnline/
+* https://graphviz.org/gallery/
+* https://github.com/ferstl/depgraph-maven-plugin
+* https://schemaspy.org/samples/epivirusurf/tables/sequence.html
+* https://howfuckedismydatabase.com/sqlite/
+* https://mermaid.js.org/syntax/pie.html
+* https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/README.md
+* https://tikz.net/
+* https://miro.com/miroverse/event-storming/
+* https://github.com/ddd-crew/domain-message-flow-modelling

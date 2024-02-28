@@ -1,0 +1,31 @@
+digraph G {
+    graph [pad = "0.5", nodesep="0.5", ranksep="2"];
+    node [shape=plain]
+    rankdir=LR;
+
+table1 [label=<
+<table border="0"  cellborder="1" cellpadding="0">
+    <tr><td><b>table  1</b></td></tr>
+    <tr><td port="col1">col1</td></tr>
+    <tr><td port="col2">col2</td></tr>
+</table>>];
+
+
+table2 [label=<
+<table border="0"  cellborder="1" cellpadding="0">
+<tr><td><b>table  2</b></td></tr>
+<tr><td port="col4">col4</td></tr>
+<tr><td port="col5">col5</td></tr>
+</table>>];
+
+
+table3 [label=<
+<table border="0"  cellborder="1" cellpadding="0">
+<tr><td><b>table  3</b></td></tr>
+<tr><td port="col7">col7</td></tr>
+<tr><td port="col8">col8</td></tr>
+</table>>];
+
+table2:col5->table1:col1
+table3:col7->table1:col2
+}
